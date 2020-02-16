@@ -2,6 +2,6 @@ name: 'Default content'
 type: module
 description: 'Imports default content when a module is enabled'
 package: Web services
-core: 8.x
+core_version_requirement: ^8.7.7 || ^9
 dependencies:
-  - drupal:hal (>=8.6.x)
+  - drupal:hal
